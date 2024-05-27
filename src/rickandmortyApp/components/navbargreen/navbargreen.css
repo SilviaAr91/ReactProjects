@@ -1,0 +1,43 @@
+.navbar-style {
+  background-image: url(../../../../public/images/rickmorty/wave.svg);
+  background-size: cover;
+  height: 260px;
+}
+
+@font-face {
+  font-family: "RickandMorty"; /* Nombre de la fuente */
+  src: url("./fonts/get_schwifty.ttf") format("truetype"); /* Ruta de la fuente */
+}
+
+@font-face {
+  font-family: "RickandMorty2"; /* Nombre de la fuente */
+  src: url("./fonts/WubbaLubbaDubDub.ttf") format("truetype"); /* Ruta de la fuente */
+}
+
+.font-style3 {
+  font-family: "RickandMorty", sans-serif; /* Usa la fuente personalizada */
+  color: black;
+  text-shadow: -1px -1px 0 #384685, 1px -1px 0 #384685, -1px 1px 0 #384685,
+    1px 1px 0 #384685;
+}
+
+.font-style2 {
+  font-family: "RickandMorty2", sans-serif; /* Usa la fuente personalizada */
+
+  text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #070707,
+    1px 1px 0 #0b0d0c;
+}
+
+.link-style {
+  font-family: "RickandMorty2", sans-serif;
+  text-decoration: none;
+  color: inherit; /* Hereda el color del texto de su contenedor */
+  font-weight: bolder;
+  transition-duration: 0.2s;
+  padding: 2px;
+}
+
+.link-style:hover {
+  color: inherit; /* Mantén el color del texto al pasar el cursor */
+  font-size: 150%;
+}

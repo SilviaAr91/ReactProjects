@@ -1,0 +1,98 @@
+/* Estilos base para la card */
+body {
+  gap: 10px;
+}
+
+@font-face {
+  font-family: "RickandMorty"; /* Nombre de la fuente */
+  src: url("./fonts/get_schwifty.ttf") format("truetype"); /* Ruta de la fuente */
+}
+
+@font-face {
+  font-family: "RickandMorty2"; /* Nombre de la fuente */
+  src: url("./fonts/WubbaLubbaDubDub.ttf") format("truetype"); /* Ruta de la fuente */
+}
+
+.font-style1 {
+  font-family: "RickandMorty", sans-serif; /* Usa la fuente personalizada */
+  color: black;
+  text-shadow: -1px -1px 0 #04bb8b, 1px -1px 0 #04bb8b, -1px 1px 0 #04bb8b,
+    1px 1px 0 #04bb8b;
+}
+
+.font-style2 {
+  font-family: "RickandMorty2", sans-serif; /* Usa la fuente personalizada */
+
+  text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #070707,
+    1px 1px 0 #0b0d0c;
+}
+
+.card {
+  font-family: "Helvetica", sans-serif;
+  background-color: #30336b; /* Azul oscuro */
+  color: #0d0909; /* Blanco para el texto */
+  border-radius: 8px;
+  border: 3px solid #100f0f;
+  box-shadow: 0 4px 8px 0 #00b894;
+  transition: 0.3s;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: 4.2px;
+}
+
+/* Contenedor para la imagen */
+.card img {
+  border-radius: 8px 8px 0 0;
+  width: 100%;
+  height: auto;
+}
+
+/* Contenedor para la información */
+.container {
+  padding: 16px;
+
+  background-color: #333333; /* Negro para el fondo */
+  flex-grow: 1;
+}
+
+/* Título de la card */
+.title {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+/* Texto descriptivo */
+.description {
+  color: #f6e58d; /* Amarillo */
+  font-size: 20px;
+  line-height: 1.6;
+  font-family: "RickandMorty2", sans-serif; /* Usa la fuente personalizada */
+
+  text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #070707,
+    1px 1px 0 #0b0d0c;
+}
+
+/* Botón para más información */
+.button {
+  background-color: #6c5ce7; /* Púrpura */
+  font-family: "RickandMorty2";
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #a29bfe; /* Púrpura claro */
+ 
+}
+
