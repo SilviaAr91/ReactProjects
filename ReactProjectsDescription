@@ -1,0 +1,21 @@
+Current Project: Rick and Morty API
+Description
+The current project in this repository is a React application (still in progress) that consumes the Rick and Morty API. It is designed to display dynamic cards for characters, and other API data, support pagination, and utilize various React features.
+
+Features
+Components: Modular and reusable components for clean and maintainable code.
+UseContext: State management using React's Context API for efficient data handling.
+Dynamic Cards: Display character information dynamically fetched from the API.
+Pagination: Easy navigation through multiple pages of characters.
+Responsive Design: Built with HTML5 and Bootstrap for a responsive layout.
+CSS Styling: Custom styling using CSS to enhance the visual appearance.
+JavaScript: JavaScript for additional functionality and interactivity.
+Upcoming Features
+Routing: Integration of React Router for navigating different views and pages.
+Additional Features: More functionalities and improvements to enhance the user experience.
+Technologies Used
+React: A JavaScript library for building user interfaces.
+HTML5: Markup language for structuring and presenting content on the web.
+Bootstrap: CSS framework for responsive and mobile-first front-end web development.
+CSS: Cascading Style Sheets for styling the application.
+JavaScript: Programming language for implementing complex features.
